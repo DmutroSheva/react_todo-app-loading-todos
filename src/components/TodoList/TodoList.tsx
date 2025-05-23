@@ -55,7 +55,7 @@ export const TodoList: React.FC<TodoListProps> = ({
           data-cy="Todo"
           className={cn('todo', { completed: todo.completed === true })}
         >
-          <label className="todo_ status-label">
+          <label className="todo__status-label">
             <input
               data-cy="TodoStatus"
               type="checkbox"
